@@ -1,3 +1,37 @@
-h1{
-    color: purple;
+:root {
+  --project-font: "IBM Plex Mono", monospace;
+  --project-background-color: rgba(0, 0, 0, 0.014);
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 100px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 50px;
+  margin-left: 26px;
+  padding-top: 20px;
+}
+
+p {
+  font-weight: 100;
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+.personal-info {
+  font-family: var(--project-font);
+  background: var(--project-background-color);
+  margin: 44px 755px -24px 27px;
+}
+
+.lisbon {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  padding: 0 0px;
+  opacity: 0.8;
 }
