@@ -14,6 +14,7 @@ h2 {
   font-size: 50px;
   margin-left: 26px;
   padding-top: 20px;
+  text-align: left;
 }
 
 p {
@@ -25,13 +26,52 @@ p {
 .personal-info {
   font-family: var(--project-font);
   background: var(--project-background-color);
-  margin: 44px 755px -24px 27px;
+  margin: 50px 615px 30px 30px;
 }
 
 .lisbon {
   width: 100%;
   height: 280px;
   background-size: cover;
-  padding: 0 0px;
+  padding: 0;
   opacity: 0.8;
+}
+
+.skill-set {
+  font-family: var(--project-font);
+  font-weight: 100;
+  text-align: center;
+}
+
+.logos {
+  font-size: 60px;
+  padding-top: 35px;
+}
+
+.skill-set h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.logos-names {
+  margin: 0;
+}
+
+@media (max-width: 1300px) {
+  .personal-info {
+    background: none;
+    margin: 0;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
 }
