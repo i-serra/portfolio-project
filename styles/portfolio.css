@@ -75,3 +75,16 @@ p {
     text-align: center;
   }
 }
+
+.language-set {
+  font-weight: 100;
+  font-size: 20px;
+  margin-left: 35px;
+  font-family: var(--project-font);
+}
+
+.language-set h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  margin: 0;
+}
