@@ -30,9 +30,16 @@ p {
   margin-left: 35px;
 }
 
+hr {
+  color: rgba(228, 179, 195, 255);
+  border-top: 1px solid #ad7886;
+}
+
 .personal-info {
   font-family: var(--project-font);
   background: var(--project-background-color);
+  margin: 90px 0px 120px 0px;
+  padding: 85px 0px 0px 62px;
 }
 
 .lisbon {
@@ -150,4 +157,5 @@ p {
 
 .my-picture {
   max-width: 450px;
+  margin: 40px 13px 70px 6px;
 }
