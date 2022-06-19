@@ -136,10 +136,17 @@ p {
   text-align: center;
   font-family: var(--project-font);
   background: var(--project-background-color);
-  margin: 20px 110px 20px 110px;
+  margin: 40px 180px 20px 150px;
+  padding: 5px 29px 5px 3px;
 }
 
 .about-me-header h2 {
   text-align: center;
   font-family: var(--project-font);
 }
+
+.display-certifications h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
