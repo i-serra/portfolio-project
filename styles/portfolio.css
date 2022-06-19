@@ -33,7 +33,6 @@ p {
 .personal-info {
   font-family: var(--project-font);
   background: var(--project-background-color);
-  margin: 50px 746px 66px 35px;
 }
 
 .lisbon {
@@ -66,7 +65,7 @@ p {
 
 @media (max-width: 1300px) {
   .personal-info {
-    margin: 0;
+    margin: 15px 0;
   }
   h1 {
     font-size: 50px;
@@ -88,9 +87,8 @@ p {
     align-items: center;
     text-align: center;
   }
-  .contact-me-button {
-    font-size: 50px;
-    padding: none;
+  div .contact-me-button {
+    font-size: 12px;
   }
 }
 
@@ -150,3 +148,6 @@ p {
   text-decoration-thickness: 1px;
 }
 
+.my-picture {
+  max-width: 450px;
+}
