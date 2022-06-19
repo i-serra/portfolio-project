@@ -1,6 +1,7 @@
 :root {
   --project-font: "IBM Plex Mono", monospace;
-  --project-background-color: rgba(0, 0, 0, 0.016);
+  --project-background-color: rgba(228, 179, 195, 0.1);
+  --project-button-color: #e4b3c3cc;
 }
 
 h1 {
@@ -108,4 +109,14 @@ p {
   font-size: 20px;
   font-family: var(--project-font);
   padding: 15px 15px 15px 15px;
+  background: var(--project-button-color);
+  color: white;
+  border-color: white;
+}
+
+.contact-me-button:hover {
+  background: #fff;
+  border-color: var(--project-button-color);
+  color: var(--project-button-color);
+  font-weight: 300;
 }
