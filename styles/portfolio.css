@@ -159,3 +159,14 @@ hr {
   max-width: 450px;
   margin: 40px 13px 70px 6px;
 }
+
+.get-to-know-me {
+  text-align: justify;
+  margin: 30px 0px 30px 0px;
+  padding: 0px 10px 3px 20px;
+}
+
+.black-white-pic {
+  max-width: 400px;
+  margin:25px 12px 2px 85px;
+}
