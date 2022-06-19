@@ -1,6 +1,6 @@
 :root {
   --project-font: "IBM Plex Mono", monospace;
-  --project-background-color: rgba(0, 0, 0, 0.014);
+  --project-background-color: rgba(0, 0, 0, 0.016);
 }
 
 h1 {
@@ -15,6 +15,12 @@ h2 {
   margin-left: 26px;
   padding-top: 20px;
   text-align: left;
+}
+
+h3 {
+  font-family: var(--project-font);
+  font-weight: 100;
+  font-size: 40px;
 }
 
 p {
@@ -87,4 +93,19 @@ p {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   margin: 0;
+}
+
+.contact-me {
+  background: var(--project-background-color);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 180px 30px 180px;
+  padding: 40px 15px 40px 15px;
+}
+
+.contact-me-button {
+  font-weight: 100;
+  font-size: 20px;
+  font-family: var(--project-font);
+  padding: 15px 15px 15px 15px;
 }
