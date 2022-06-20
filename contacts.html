@@ -15,7 +15,7 @@
     <title>Inês Serra - Front-End Developer || Audiovisual Translator: Contact Me</title>
   </head>
   <body>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Noite_lisboa.jpg" alt="Lisbon at night" class="lisbon" />
+    <img src="/images/lisbon-at-night.jpeg" alt="Lisbon at night" class="lisbon" />
     <div class="container-fluid">
       <header class="content-header rounded shadow">
         <h2>Let's get in touch!</h2>
@@ -24,17 +24,28 @@
       <hr />
       <div class="row">
         <div class="col-xl-6">
-          <h3>Send me a message</h3>
-          <form action="action_page.php">
-            <label for="full-name">Full Name</label>
+          <form action="action_page.php" class="rounded shadow">
+            <h3>Send me a message</h3>
+            <label for="full-name">FULL NAME:</label>
             <input type="text" id="full-name" name="name" placeholder="Full name..." />
-            <label for="email">Your email</label>
+            <label for="email">YOUR EMAIL:</label>
             <input type="email" required autofocus placeholder="email@domain.com" />
-            <label for="message">Your Message</label>
+            <label for="message">YOUR MESSAGE:</label>
             <textarea id="message" name="message" placeholder="Write something.."></textarea>
             <br />
             <button type="submit" value="Submit" class="contact-me-button btn mt-2 shadow rounded">Send</button>
           </form>
+        </div>
+        <div class="col-xl-6 contact-options">
+          <i class="fa-solid fa-envelope contact-widgets"></i>
+          <h3>Email</h3>
+          <a href="mailto:inesserra@edu.ulisboa.pt" target"_blank class="contact-links">inesserra@edu.ulisboa.pt</a>
+          <i class="fa-brands fa-linkedin contact-widgets"></i>
+          <h3>Linkedin</h3>
+          <a href="#" target="_blank" class="contact-links">ines_serra</a>
+          <i class="fa-brands fa-github contact-widgets"></i>
+          <h3>Git Hub</h3>
+          <a href="https://github.com/i-serra" target="_blank" class="contact-links">@i-serra</a>
         </div>
       </div>
       <hr />

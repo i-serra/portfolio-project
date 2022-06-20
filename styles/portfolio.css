@@ -177,20 +177,47 @@ hr {
 }
 
 form {
-  display: block;
+  background: var(--project-background-color);
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+  padding: 40px;
+  margin: 10px;
 }
 
 label,
-input {
+input,
+textarea {
   display: block;
+  font-weight: 100;
+  font-size: 15px;
+  font-family: var(--project-font);
+  width: 100%;
+  padding: 10px;
+}
+
+.contact-options {
+  font-family: var(--project-font);
+  text-align: center;
+  color: var(--project-button-color);
+  margin-top: 50px;
+}
+
+.contact-widgets {
+  display: block;
+  margin: 0 auto;
+  font-size: 40px;
+  color: var(--project-button-color);
+  padding: 15px;
+}
+
+.contact-links {
+  color: #000;
+  font-weight: 100;
+}
+
+.contact-links:hover {
+  color: var(--project-button-color);
 }
 
 @media (max-width: 1300px) {
@@ -244,5 +271,8 @@ input {
   .get-to-know-me {
     padding: 0 35px 0 0;
     margin: 0;
+  }
+  form {
+    display: center;
   }
 }
