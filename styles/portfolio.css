@@ -225,11 +225,12 @@ textarea {
 }
 
 nav {
-  padding: 20px 0;
+  padding: 5px 0px 0px 0px;
+  background-color: var(--project-background-color);
 }
 
 nav ul {
-  padding: 0;
+  padding: 0px 60px 0px 0px;
   margin: 0;
 }
 
@@ -238,6 +239,23 @@ nav li {
   list-style: none;
   line-height: 65px;
   margin-left: 90px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-family: var(--project-font);
+  font-weight: 100;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--project-button-color);
+}
+
+.nav-container {
+  margin: -900px;
 }
 
 @media (max-width: 1300px) {
@@ -293,7 +311,11 @@ nav li {
     margin: 0;
   }
   form {
-    display: center;
     margin: 0;
+  }
+  nav li {
+    margin-left: 30px;
+    margin-right: 0;
+    text-align: left;
   }
 }
