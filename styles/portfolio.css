@@ -154,8 +154,43 @@ hr {
   width: 300px;
 }
 
-.project-content{
-    text-align: justify;
+.project-content {
+  text-align: justify;
+}
+
+.view-button {
+  font-weight: 100;
+  font-size: 20px;
+  font-family: var(--project-font);
+  padding: 15px 15px 15px 15px;
+  background: var(--project-button-color);
+  color: white;
+  border-color: white;
+  margin: 0px 110px 0px 10px;
+}
+
+.view-button:hover {
+  background: #fff;
+  border-color: var(--project-button-color);
+  color: var(--project-button-color);
+  font-weight: 300;
+}
+
+form {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+label,
+input {
+  display: block;
 }
 
 @media (max-width: 1300px) {
