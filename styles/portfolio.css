@@ -142,6 +142,22 @@ hr {
   margin: 25px 12px 2px 85px;
 }
 
+.book-reading-project {
+  margin-left: 130px;
+}
+
+.book-reading-content {
+  margin-top: 80px;
+}
+
+.book-reading {
+  width: 300px;
+}
+
+.project-content{
+    text-align: justify;
+}
+
 @media (max-width: 1300px) {
   .personal-info {
     padding: 0;
