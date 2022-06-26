@@ -254,6 +254,32 @@ nav li.active a {
   color: var(--project-button-color);
 }
 
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+footer .authors-note {
+  font-weight: 100;
+  font-size: 16px;
+  padding: 0;
+  margin-top: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: var(--project-button-color);
+}
+
+footer .social-links a {
+    color: var(--project-button-color);
+    font-size: 20px;
+}
+
 @media (max-width: 1300px) {
   .personal-info {
     padding: 0;
